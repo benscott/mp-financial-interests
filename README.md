@@ -14,7 +14,7 @@ Originally written for [mpreportcard.co.uk (offline)](http://www.mpreportcard.co
 The scripts parses information from 2010 - 2018. Registers of Members' Financial Interests are available prior to 2010, but the format changes substantially and aren't parsable by this script. 
 
 
-The data 2010 - 2018 is available at:
+Interests data for 2010 - 2018 is available at: [https://github.com/sparkd/mp-financial-interests](https://github.com/sparkd/mp-financial-interests)
 
 
 The script extracts the following information:
