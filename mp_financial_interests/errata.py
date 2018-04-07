@@ -132,7 +132,7 @@ errata = Errata(
         ),
         AmountErratum(
             # Conversion of Australian dollars to pounds
-            member_name='rifkind, malcolm', replacement_amount="6856.67", session='2010-12', line="July 2011: one hour meeting in London. (Updated 30 August 2011)"
+            member_name='rifkind, malcolm', replacement_amount=6856.67, session='2010-12', line="July 2011: one hour meeting in London. (Updated 30 August 2011)"
         ),
 
 
