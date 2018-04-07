@@ -30,7 +30,7 @@ The script extracts the following information:
 Assumptions & limitations
 -------------------------
 
-The published interests data isn't uniformally structured, so the source records should be checked for confirmation.
+The published interests data isn't uniformally structured, so source records should be checked for confirmation.
 
 There are also some known issues with the scripts:
 
@@ -50,8 +50,6 @@ Installation
 ------------
 
 With PIP:
-
-
 
 
 
