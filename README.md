@@ -11,12 +11,10 @@ Overview
 
 Written for [mpreportcard.co.uk (offline)](http://www.mpreportcard.co.uk), to provide an overview of MPs for the 2015 General Election.
 
-The scripts parses information from Registers 2010-2018. For Members' Financial Interests prior to 2010, the format changes substantially and aren't handled by this script. 
-
 The 2010-2018 data can be downloaded from: [https://github.com/sparkd/mp-financial-interests](https://github.com/sparkd/mp-financial-interests)
 
 
-The script extracts the following information:
+The following information is extracted:
 
 | Field        | Description | 
 | ------------ |-------------| 
@@ -88,6 +86,8 @@ Assumptions & limitations
 The published interests data isn't uniformally structured, so source records should be checked for confirmation.
 
 There are also some known issues with the scripts:
+
+- Only parses information from 2010-2018 Registers. For Members' Financial Interests prior to 2010, the format changes substantially. 
 
 - It does not handle recuring/repeat payments. For example, [RIFKIND, Rt Hon Sir Malcolm](https://publications.parliament.uk/pa/cm/cmregmem/120430/rifkind_malcolm.htm) records interest "Monthly ongoing payment of £4,666.66"  (14 February 2011). But this will be extracted as a single entry of £4,666.66.  See TODO.
 
