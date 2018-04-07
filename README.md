@@ -9,12 +9,11 @@ Python script for parsing data from the UK House of Commons Register of Members'
 Overview
 --------
 
-Originally written for [mpreportcard.co.uk (offline)](http://www.mpreportcard.co.uk), built for the 2015 General Election to provide an overview of every MPs actions for the 2010 - 2015 parliamentary session. 
+Written for [mpreportcard.co.uk (offline)](http://www.mpreportcard.co.uk), to provide an overview of MPs for the 2015 General Election.
 
-The scripts parses information from 2010 - 2018. Registers of Members' Financial Interests are available prior to 2010, but the format changes substantially and aren't parsable by this script. 
+The scripts parses information from Registers 2010-2018. For Members' Financial Interests prior to 2010, the format changes substantially and aren't handled by this script. 
 
-
-Interests data for 2010 - 2018 is available at: [https://github.com/sparkd/mp-financial-interests](https://github.com/sparkd/mp-financial-interests)
+The 2010-2018 data can be downloaded from: [https://github.com/sparkd/mp-financial-interests](https://github.com/sparkd/mp-financial-interests)
 
 
 The script extracts the following information:
