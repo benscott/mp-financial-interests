@@ -1,12 +1,15 @@
 MP Financial Interests
 ======================
 
+Python script for parsing data from the UK House of Commons Register of Members' Financial Interests http://www.publications.parliament.uk/pa/cm/cmregmem/contents1415.htm.
+
+[![codecov](https://codecov.io/gh/benscott/mp-financial-interests/branch/master/graph/badge.svg)](https://codecov.io/gh/benscott/mp-financial-interests)
+
+
 Overview
 --------
 
-Python script for parsing data from the UK House of Commons Register of Members' Financial Interests http://www.publications.parliament.uk/pa/cm/cmregmem/contents1415.htm.
-
-It was originally written for http://www.mpreportcard.co.uk, built for the 2015 General Election to provide an overview of every MPs actions for the 2010 - 2015 parliamentary session. 
+Originally written for [mpreportcard.co.uk (offline)](http://www.mpreportcard.co.uk), built for the 2015 General Election to provide an overview of every MPs actions for the 2010 - 2015 parliamentary session. 
 
 The scripts parses information from 2010 - 2018. Registers of Members' Financial Interests are available prior to 2010, but the format changes substantially and aren't parsable by this script. 
 
@@ -27,6 +30,16 @@ The script extracts the following information:
 | Session      | The parliamentary session the interest is included in - e.g. 2010-12; 2015-16 |
 
 
+CLI Commands
+------------
+
+A command line interface is provided.
+
+```sh
+  pip install python-ldap
+```
+
+
 Assumptions & limitations
 -------------------------
 
@@ -45,13 +58,6 @@ There are also some known issues with the scripts:
 - The amount of all interests are in £ pounds.  One known entry ([Malcolm Rifkind, 30 August 2011](https://publications.parliament.uk/pa/cm/cmregmem/120430/rifkind_malcolm.htm)) is recorded in Australian dollars and has been converted to pound sterling. See TODO.
 
 
-
-Installation
-------------
-
-With PIP:
-
-
 TESTS
 -----
 
@@ -67,12 +73,3 @@ TODO
 - Support multiple currencies
 
 
-
-CLI Commands
-------------
-
-A command line interface is provided.
-
-```sh
-  pip install python-ldap
-```
