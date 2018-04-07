@@ -36,7 +36,43 @@ CLI Commands
 A command line interface is provided.
 
 ```sh
-  pip install python-ldap
+  python cli.py [OPTIONS]
+```
+
+With the following options:
+
+- `--session -s` Processs interest for a particular session e.g. 2010-12
+- `--member-name -mp` Processs specific member e.g. "Abbot, Diane"
+- `--filter -f` Filter interest descriptions
+- `--output -o` Output to console or CSV (/tmp/mps.csv)
+- `--group_by -g` Group interests by member, session or both.
+- `--order` Order interests by field - e.g. amount to see MPs with highest interest amount
+- `--clear_cache -cc` Clear cache - do not used cached data
+- `--verbosity` [Click log](https://github.com/click-contrib/click-log) debug verbosity
+
+
+#### Examples
+
+Display all interests for Norman Baker in console:
+
+
+```sh
+  python cli.py  --verbosity INFO -o console -mp "BAKER, Norman"
+```
+
+
+Display total for all MPs in the 2014-15 session in console:
+
+
+```sh
+  python cli.py  --verbosity INFO -s 2014-15 -o console -g mp
+```
+
+Output all interests to CSV (`/tmp/mps.csv`):
+
+
+```sh
+  python cli.py  --verbosity INFO -o csv
 ```
 
 
@@ -58,7 +94,7 @@ There are also some known issues with the scripts:
 - The amount of all interests are in £ pounds.  One known entry ([Malcolm Rifkind, 30 August 2011](https://publications.parliament.uk/pa/cm/cmregmem/120430/rifkind_malcolm.htm)) is recorded in Australian dollars and has been converted to pound sterling. See TODO.
 
 
-TESTS
+Tests
 -----
 
 ```sh
