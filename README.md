@@ -87,7 +87,7 @@ The published interests data isn't uniformally structured, so source records sho
 
 There are also some known issues with the scripts:
 
-- Only parses information from 2010-2018 Registers. For Members' Financial Interests prior to 2010, the format changes substantially. 
+- Only parses information from 2010-2018 Members' Financial Interests. The format changes substantially for registers prior to 2010. 
 
 - It does not handle recuring/repeat payments. For example, [RIFKIND, Rt Hon Sir Malcolm](https://publications.parliament.uk/pa/cm/cmregmem/120430/rifkind_malcolm.htm) records interest "Monthly ongoing payment of £4,666.66"  (14 February 2011). But this will be extracted as a single entry of £4,666.66.  See TODO.
 
