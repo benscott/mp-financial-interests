@@ -139,7 +139,7 @@ class Interests:
 
     def to_csv(self, file_name):
         self._dataframe['amount'] = self._dataframe['amount'].astype(float)
-        self.data.to_csv(file_name, encoding='utf-8', float_format='£%.2f')
+        self.data.to_csv(file_name, encoding='utf-8')
         logger.info("Saved CSV %s", file_name)
 
     def clear_cache(self, cache_key):
