@@ -52,6 +52,12 @@ Installation
 With PIP:
 
 
+TESTS
+-----
+
+```sh
+  nosetests --with-coverage --cover-package mp_financial_interests
+```
 
 
 TODO
