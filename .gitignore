@@ -3,3 +3,4 @@
 *.sublime-*
 __pycache__
 *.sqlite
+*.coverage
