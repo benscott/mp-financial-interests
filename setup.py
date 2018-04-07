@@ -10,14 +10,20 @@ setup(
     keywords='',
     author='Ben Scott',
     author_email='ben@benscott.co.uk',
-    url='',
-    license='',
+    url='https://github.com/benscott/mp-financial-interests',
+    license='GNU GPL 3',
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'beautifulsoup4',
+        'click',
+        'click-log',
         'html5lib',
-        'requests'
+        'pandas',
+        'requests',
+        'requests-cache',
+        'tables'
     ],
     entry_points="""""",
 )

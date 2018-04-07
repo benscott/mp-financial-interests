@@ -5,7 +5,6 @@ import pandas as pd
 from pandas import HDFStore
 import numpy as np
 import logging
-import name_tools
 import warnings
 
 

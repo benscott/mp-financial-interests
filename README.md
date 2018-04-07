@@ -57,7 +57,7 @@ With PIP:
 TODO
 ----
 
-- NLP processing to process recurring payments.
+- Handle recurring payments (NLP?).
 - Support multiple currencies
 
 

@@ -1,1 +1,8 @@
+beautifulsoup4==4.6.0
+click-log==0.2.1
+click==6.7
 html5lib==1.0.1
+pandas==0.22.0
+requests-cache==0.4.13
+requests==2.18.4
+tables==3.4.2
