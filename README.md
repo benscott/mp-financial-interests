@@ -75,6 +75,13 @@ Output all interests to CSV (`/tmp/mps.csv`):
   python cli.py  --verbosity INFO -o csv
 ```
 
+Show all interests with "cornwall" in the description, ordered by amount:
+
+
+```sh
+  python cli.py  --verbosity INFO -f "cornwall" -o console --order amount
+```
+
 
 Assumptions & limitations
 -------------------------
